@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -7,7 +7,23 @@
 </head>
 <body>
 	<form action="/">
-		
+		<div>
+			<label for="nombreusuario">Nombre</label>
+			<input type="text" id="nombreusuario" name="nombreusuario">
+		</div>
+		<br>
+		<div>
+			<label for="edadusuario">Edad</label>
+			<input type="number" id="edadusuario" name="edadusuario">
+		</div>
+		<br>
+		<div>
+			<label for="fraseusuario">Frase Favorita</label>
+			<textarea name="fraseusuario" id="fraseusuario"></textarea>
+		</div>
+		<br>
+		<button type="reset">Reset</button>
+		<button type="submit">Enviar</button>
 	</form>
 </body>
 </html>
